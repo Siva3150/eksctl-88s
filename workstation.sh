@@ -23,6 +23,13 @@ curl -sLO "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_$
 tar -xzf eksctl_$PLATFORM.tar.gz -C /tmp && rm eksctl_$PLATFORM.tar.gz
 sudo install -m 0755 /tmp/eksctl /usr/local/bin && rm /tmp/eksctl
 
+#kubens 
+sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
+sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
+
+#k9s 
+curl -sS https://webinstall.dev/k9s | bash
+
 # go to ec2-user home
 cd /home/ec2-user
 git clone https://github.com/Siva3150/eksctl-88s.git
