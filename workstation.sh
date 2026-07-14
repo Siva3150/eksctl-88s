@@ -40,3 +40,9 @@ chmod 700 get_helm.sh
 cd /home/ec2-user
 git clone https://github.com/Siva3150/eksctl-88s.git
 git clone https://github.com/Siva3150/k8-resources-88s.git
+git clone https://github.com/Siva3150/helm-88s.git
+git clone https://github.com/Siva3150/roboshop-helm-88s.git
+git clone https://github.com/Siva3150/k8-rbac-88s.git 
+git clone https://github.com/Siva3150/k8-roboshop-88s.git
+git clone https://github.com/Siva3150/k8-roboshop-databases-88s.git 
+
